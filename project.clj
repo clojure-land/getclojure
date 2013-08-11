@@ -31,5 +31,7 @@
                                    "http://s3pository.herokuapp.com/clojure"}}
              :dev {:dependencies [[ring-mock "0.1.3"]
                                   [ring/ring-devel "1.1.8"]
-                                  [org.clojure/data.csv "0.1.2"]]}}
+                                  [org.clojure/data.csv "0.1.2"]
+                                  [org.clojure/tools.namespace "0.2.4"]]
+                   :source-paths ["dev"]}}
   :min-lein-version "2.0.0")
